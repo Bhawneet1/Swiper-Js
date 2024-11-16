@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height:100%;
+  width:100%;
+
+}
+
+body{
+  background-color: #111;
+  padding:30px;
+  color:white;
+}
+.swiper{
+  height:100%;
+  width: 100%;
+  background-color:#333;
+  padding:30px;
+}
+
+
+.swiper-slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.next{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  background-color: crimson;
+  padding:5px 10px;
+  transform: translate(0,-50%);
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9;
+}
